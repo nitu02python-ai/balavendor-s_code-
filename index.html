@@ -1,0 +1,1225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Generated Page</title>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ExpertCallers - Customer Satisfaction Survey Services</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Helvetica:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="global.css">
+  <style id="sections-styles">
+/* CSS for section section:header */
+.header-section {
+    padding: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: var(--white);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.site-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-top {
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+.header-top .logo img {
+    height: 40px;
+}
+.main-nav ul {
+    display: flex;
+    gap: 30px;
+}
+.main-nav ul li a {
+    color: #444444;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.header-contact-btn img {
+    height: 40px;
+}
+.header-bottom {
+    background-color: var(--primary-color);
+}
+.secondary-nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    padding: 12px 0;
+}
+.secondary-nav ul li a {
+    color: var(--white);
+    font-size: 13px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.mobile-nav-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+@media (max-width: 1200px) {
+    .main-nav, .header-contact-btn { display: none; }
+    .mobile-nav-toggle { display: block; }
+    .secondary-nav { overflow-x: auto; }
+    .secondary-nav ul { justify-content: flex-start; }
+}
+@media (max-width: 768px) {
+    .header-top .logo img { height: 30px; }
+}
+
+/* CSS for section section:hero */
+.hero-section {
+    padding: 100px 0 60px;
+    color: var(--white);
+    position: relative;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+}
+.hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    overflow: hidden;
+}
+.hero-bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right center;
+}
+.hero-bg-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.8) 40%, rgba(255,255,255,0) 70%);
+}
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.hero-text {
+    flex: 1;
+    max-width: 550px;
+    color: var(--text-dark);
+}
+.hero-pre-title {
+    font-size: 20px;
+    color: var(--text-medium);
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.hero-title {
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+.hero-title .color-primary { color: var(--primary-color); }
+.hero-title .color-dark { color: var(--text-medium); }
+.hero-description {
+    font-size: 22px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+.hero-contact-buttons {
+    display: flex;
+    gap: 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(21, 123, 165, 0.31);
+    width: fit-content;
+}
+.contact-button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+.contact-button img { height: 30px; }
+.hero-form-wrapper {
+    flex-shrink: 0;
+    width: 320px;
+}
+.hero-form {
+    background-color: #0076af;
+    padding: 25px;
+    border-radius: 10px;
+    color: var(--white);
+}
+.hero-form h3 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.form-group { margin-bottom: 10px; }
+.hero-form input, .hero-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dee9f6;
+    border-radius: 5px;
+    background-color: #fff;
+    font-family: inherit;
+    font-size: 13px;
+}
+.hero-form textarea { resize: vertical; }
+.hero-form .btn {
+    width: 100%;
+    background-color: #009ae4;
+    border: none;
+    margin-top: 10px;
+}
+.privacy-policy {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px;
+}
+.breadcrumbs {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 13px;
+    color: var(--secondary-color);
+}
+.breadcrumbs .current { color: var(--text-medium); }
+
+@media (max-width: 1024px) {
+    .hero-content { flex-direction: column; text-align: center; }
+    .hero-text { max-width: 100%; }
+    .hero-contact-buttons { margin: 0 auto; }
+    .hero-form-wrapper { width: 100%; max-width: 400px; margin-top: 40px; }
+    .hero-bg-overlay { background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.9) 60%, rgba(255,255,255,0.7) 100%); }
+}
+@media (max-width: 768px) {
+    .hero-section { padding: 60px 0 40px; }
+    .hero-title { font-size: 32px; }
+    .hero-description { font-size: 18px; }
+    .hero-contact-buttons { flex-direction: column; gap: 15px; align-items: flex-start; }
+}
+
+/* CSS for section section:intro-stats */
+#section-intro-stats {
+    background-color: #fff;
+}
+.intro-stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+.intro-text .section-title {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+.intro-text p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: var(--text-light);
+}
+.stats-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 30px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 49px 0px rgba(4, 30, 51, 0.09);
+    border-radius: 10px;
+}
+.stat-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px 0;
+    border-bottom: 1.5px solid #e9e8e8;
+}
+.stat-item:nth-child(3), .stat-item:nth-child(4) {
+    border-bottom: none;
+}
+.stat-item:nth-child(odd) {
+    border-right: 1.5px solid #e9e8e8;
+    padding-right: 15px;
+}
+.stat-icon-wrapper {
+    flex-shrink: 0;
+}
+.stat-icon-wrapper img {
+    width: 58px;
+    height: 58px;
+}
+.stat-value {
+    display: block;
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--primary-color);
+    margin-bottom: 5px;
+}
+.stat-label {
+    font-size: 16px;
+    color: var(--text-medium);
+    line-height: 1.2;
+}
+@media (max-width: 992px) {
+    .intro-stats-grid {
+        grid-template-columns: 1fr;
+    }
+    .intro-text .section-title {
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    .stats-box {
+        grid-template-columns: 1fr;
+    }
+    .stat-item:nth-child(odd) {
+        border-right: none;
+    }
+    .stat-item {
+        border-bottom: 1.5px solid #e9e8e8 !important;
+    }
+    .stat-item:last-child {
+        border-bottom: none !important;
+    }
+}
+
+/* CSS for section section:services */
+#section-services {
+    background-image: url('images/2_617.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 18px 0px rgba(4, 30, 51, 0.02);
+}
+.service-list {
+    position: relative;
+}
+.service-list:first-child {
+    padding-right: 40px;
+    border-right: 2px solid #d0d2d5;
+}
+.service-list:last-child {
+    padding-left: 40px;
+}
+.service-list li {
+    padding-left: 30px;
+    position: relative;
+    padding-bottom: 30px;
+    border-left: 2px solid #d0d2d5;
+}
+.service-list li:last-child {
+    border-left: none;
+}
+.service-list li::before {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: 0;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    border: 3px solid #fff;
+}
+.service-list li::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 2px;
+    background-color: #d0d2d5;
+}
+.service-list h3 {
+    font-size: 15px;
+    color: var(--text-light);
+    margin-bottom: 10px;
+}
+.service-list p {
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--text-light);
+}
+@media (max-width: 992px) {
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .service-list:first-child {
+        border-right: none;
+        padding-right: 0;
+        padding-bottom: 40px;
+        border-bottom: 2px solid #d0d2d5;
+    }
+    .service-list:last-child {
+        padding-left: 0;
+    }
+}
+@media (max-width: 576px) {
+    .services-grid {
+        padding: 30px 20px;
+    }
+}
+
+/* CSS for section section:cta-banner-1 */
+.cta-banner-section {
+    padding: 30px 0;
+    background-image: url('images/93d99cec9096b9ebd11b4dd1acabd613cbfddced.png');
+    background-size: cover;
+    background-position: center;
+}
+.cta-banner-section .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta-banner-section p {
+    color: var(--white);
+    font-size: 22px;
+    font-weight: 400;
+}
+.cta-banner-section .btn {
+    background-color: #fff;
+    color: var(--primary-color);
+    border-radius: 5px;
+    padding: 12px 30px;
+    font-size: 15px;
+}
+@media (max-width: 768px) {
+    .cta-banner-section .container {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    .cta-banner-section p {
+        font-size: 18px;
+    }
+}
+
+/* CSS for section section:efficiency */
+#section-efficiency {
+    overflow: hidden;
+}
+.deco-shape-1 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0.5;
+    z-index: -1;
+}
+.deco-shape-2 {
+    position: absolute;
+    right: 0;
+    top: 40%;
+    opacity: 0.5;
+    z-index: -1;
+}
+.efficiency-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: center;
+}
+.efficiency-text .section-subtitle {
+    margin-bottom: 5px;
+}
+.efficiency-text .section-title {
+    margin-bottom: 20px;
+}
+.efficiency-text p {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+.efficiency-buttons {
+    display: flex;
+    gap: 20px;
+}
+.efficiency-image .image-stack {
+    position: relative;
+    width: 100%;
+    padding-bottom: 70%; /* Aspect ratio */
+}
+@media (max-width: 992px) {
+    .efficiency-grid {
+        grid-template-columns: 1fr;
+    }
+    .efficiency-text {
+        order: 2;
+        text-align: center;
+    }
+    .efficiency-text .section-title, .efficiency-text .section-subtitle {
+        text-align: center;
+    }
+    .efficiency-buttons {
+        justify-content: center;
+    }
+    .efficiency-image {
+        order: 1;
+    }
+}
+
+/* CSS for section section:why-us */
+#section-why-us {
+    background-image: url('images/2_616.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.why-us-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-top: 60px;
+}
+.why-us-item {
+    text-align: center;
+}
+.why-us-icon {
+    width: 78px;
+    height: 78px;
+    margin-bottom: 20px;
+}
+.why-us-item h3 {
+    font-size: 16px;
+    color: var(--bg-dark);
+    margin-bottom: 10px;
+}
+.why-us-item p {
+    font-size: 13px;
+    line-height: 1.5;
+    color: var(--bg-dark);
+}
+@media (max-width: 992px) {
+    .why-us-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 576px) {
+    .why-us-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* CSS for section section:main-cta */
+.main-cta-section {
+    padding: 120px 0;
+    background-image: url('images/614306cc1311b0df6935d9c97450dcf0af5460db.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #005a87;
+    background-blend-mode: multiply;
+    color: var(--white);
+    text-align: center;
+}
+.main-cta-content h2 {
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 40px;
+}
+.btn-outline-white {
+    border: 3px solid var(--white);
+    color: var(--white);
+    padding: 12px 40px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.btn-outline-white:hover {
+    background-color: var(--white);
+    color: var(--primary-color);
+}
+@media (max-width: 768px) {
+    .main-cta-section {
+        padding: 80px 20px;
+    }
+    .main-cta-content h2 {
+        font-size: 32px;
+    }
+}
+
+/* CSS for section section:success-stories */
+.success-stories-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    align-items: center;
+}
+.success-stories-text {
+    grid-column: 1 / 2;
+}
+.success-stories-text .section-subtitle {
+    margin-bottom: 5px;
+}
+.success-stories-text .section-title {
+    margin-bottom: 20px;
+}
+.success-stories-text p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.case-study-card {
+    padding: 30px;
+    border-radius: 10px;
+    color: var(--white);
+    min-height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.case-study-card.card-1 {
+    background-image: url('images/2_797.svg');
+    background-size: cover;
+}
+.case-study-card.card-2 {
+    background-image: url('images/2_619.svg');
+    background-size: cover;
+}
+.case-study-card.card-3 {
+    background-image: url('images/2_620.svg');
+    background-size: cover;
+}
+.case-study-card h4 {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+.case-study-card.card-1 h4 { color: #009ae4; }
+.arrow-btn {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 2px 18px 0px rgba(4, 30, 51, 0.13);
+    align-self: flex-end;
+}
+@media (max-width: 1200px) {
+    .success-stories-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    .success-stories-text {
+        grid-column: 1 / -1;
+        text-align: center;
+    }
+    .success-stories-text .section-title, .success-stories-text .section-subtitle {
+        text-align: center;
+    }
+    .case-study-card.card-3 {
+        grid-column: 1 / -1;
+        max-width: 50%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 768px) {
+    .success-stories-grid {
+        grid-template-columns: 1fr;
+    }
+    .case-study-card.card-3 {
+        max-width: 100%;
+    }
+}
+
+/* CSS for section section:cta-banner-2 */
+/* Styles are reused from .cta-banner-section in #section-cta-banner-1 */
+#section-cta-banner-2 {
+    background-image: url('images/6fdf1eff1e2d7ee8c69a3102865cd724e3b081f5.png');
+}
+
+/* CSS for section section:happy-customers */
+.customer-section-logo {
+    display: block;
+    margin: 0 auto 10px;
+}
+#section-happy-customers .section-title {
+    margin-bottom: 40px;
+}
+.customer-logos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+.customer-logos img {
+    max-height: 50px;
+    object-fit: contain;
+}
+.customer-logos .nav-arrow {
+    cursor: pointer;
+    max-height: 20px;
+}
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.testimonial-card {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.testimonial-bg {
+    width: 100%;
+    display: block;
+}
+.play-button-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play-button-overlay img {
+    width: 100%;
+    height: 100%;
+}
+.view-more-wrapper {
+    text-align: center;
+    margin-top: 60px;
+}
+@media (max-width: 992px) {
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+    .customer-logos {
+        flex-wrap: wrap;
+    }
+}
+
+/* CSS for section section:footer */
+.site-footer {
+    padding: 0;
+    background-color: var(--bg-dark);
+    color: var(--white);
+}
+.footer-top {
+    padding: 30px 0;
+    background-color: #fff;
+    text-align: center;
+}
+.footer-main {
+    padding: 60px 0;
+    border-bottom: 1px solid #95999e;
+}
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+}
+.footer-col h3 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.footer-col ul li {
+    margin-bottom: 15px;
+}
+.footer-col ul li a {
+    font-size: 14px;
+    color: var(--white);
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+.footer-col ul li a:hover {
+    opacity: 1;
+}
+.footer-col .contact-label {
+    font-size: 14px;
+    margin-top: 20px;
+    opacity: 0.8;
+}
+.footer-col .contact-info {
+    font-size: 30px;
+    font-weight: 400;
+    display: block;
+}
+.social-icons {
+    margin-top: 20px;
+}
+.footer-logo {
+    margin-top: 20px;
+}
+.footer-bottom {
+    padding: 20px 0;
+}
+.footer-bottom .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    color: #95999e;
+}
+@media (max-width: 992px) {
+    .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 768px) {
+    .footer-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .footer-bottom .container {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
+  </style>
+  <script src="global.js" defer></script>
+</head>
+<body>
+<section id="section-header" class="header-section">
+    <header class="site-header">
+        <div class="header-top">
+            <div class="container">
+                <a href="#" class="logo">
+                    <img src="images/8f0324c4765e083e45a79b265c94436180f1dd44.png" alt="ExpertCallers Logo">
+                </a>
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">INDUSTRIES <img src="images/964f6154901451494fe29aaeccd60289d6a352ac.png" alt="dropdown arrow"></a></li>
+                        <li><a href="#">RESOURCES <img src="images/964f6154901451494fe29aaeccd60289d6a352ac.png" alt="dropdown arrow"></a></li>
+                        <li><a href="#">COMPANY <img src="images/964f6154901451494fe29aaeccd60289d6a352ac.png" alt="dropdown arrow"></a></li>
+                    </ul>
+                </nav>
+                <a href="tel:1-877-374-0211" class="header-contact-btn">
+                    <img src="images/1c41964d626d1cbd7ac3c600fd707b3668016451.png" alt="1-877-374-0211">
+                </a>
+                <button class="mobile-nav-toggle">☰</button>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <nav class="secondary-nav">
+                    <ul>
+                        <li><a href="#">INBOUND <img src="images/055b9ee3672bfb476847df863316cbc20b42911a.png" alt="dropdown arrow"></a></li>
+                        <li><a href="#">OUTBOUND <img src="images/055b9ee3672bfb476847df863316cbc20b42911a.png" alt="dropdown arrow"></a></li>
+                        <li><a href="#">CCTV MONITORING</a></li>
+                        <li><a href="#">CONTENT MODERATION</a></li>
+                        <li><a href="#">VIRTUAL ASSISTANT</a></li>
+                        <li><a href="#">EMAIL SUPPORT</a></li>
+                        <li><a href="#">CHAT SUPPORT <img src="images/055b9ee3672bfb476847df863316cbc20b42911a.png" alt="dropdown arrow"></a></li>
+                        <li><a href="#">OTHERS <img src="images/055b9ee3672bfb476847df863316cbc20b42911a.png" alt="dropdown arrow"></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+</section>
+<section id="section-hero" class="hero-section">
+    <div class="hero-bg">
+        <img src="images/c2e5f63be8c86630b47393bdb0b60c3d82479cd3.png" alt="Hero background image" class="hero-bg-img">
+        <div class="hero-bg-overlay"></div>
+    </div>
+    <div class="container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <p class="hero-pre-title">REAL AND DATA-DRIVEN</p>
+                <h1 class="hero-title">
+                    <span class="color-primary">CUSTOMER SATISFACTION</span>
+                    <span class="color-dark">SURVEY SERVICES</span>
+                </h1>
+                <p class="hero-description">Welcome to the pinnacle of customer satisfaction. Surveys here are exclusively designed to propel your business forward.</p>
+                <div class="hero-contact-buttons">
+                    <a href="tel:1-877-374-0211" class="contact-button">
+                        <img src="images/1fe19a514c81d73b03c3589020d12244588696a7.png" alt="Call icon">
+                        <span>1-877-374-0211</span>
+                    </a>
+                    <a href="mailto:info@expertcallers.com" class="contact-button">
+                        <img src="images/001462262666846dd336f159fca06d2405f48a8d.png" alt="Email icon">
+                        <span>Email</span>
+                    </a>
+                    <a href="#" class="contact-button">
+                        <img src="images/953ed8a04c8c5dcef264fe671d300117ce49abd2.png" alt="Chat icon">
+                        <span>Chat</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-form-wrapper">
+                <form class="hero-form">
+                    <h3>Quick Contact</h3>
+                    <div class="form-group">
+                        <input type="text" placeholder="First Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Work Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Work Phone" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Describe Your Requirement" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-secondary">SUBMIT</button>
+                    <p class="privacy-policy">Ptrivacy Policy</p>
+                </form>
+            </div>
+        </div>
+        <div class="breadcrumbs">
+            <span>Home . </span>
+            <span class="current">Order Management Services</span>
+        </div>
+    </div>
+</section>
+<section id="section-intro-stats">
+    <div class="container">
+        <div class="intro-stats-grid">
+            <div class="intro-text">
+                <h2 class="section-title" style="text-align: left;">Transform Your Business with <br>ExpertCallers' Customer <br>Satisfaction Survey Services</h2>
+                <p>Are you struggling to understand what your customers truly feel about your business? Insufficient insights and resources can hinder your understanding of customers. In today's business world, gauging customer satisfaction isn't just about fulfilling a requirement; it's about shaping strategies that breed success.</p>
+                <p>As an authority in understanding the intricacies of customer satisfaction, ExpertCallers is your partner in unearthing insights that drive success. Our services cater to the unique demands of your businesses, addressing all customer satisfaction problems that have long hindered progress.</p>
+            </div>
+            <div class="stats-box">
+                <div class="stat-item">
+                    <div class="stat-icon-wrapper">
+                        <img src="images/2_901.svg" alt="Customer Satisfaction Score Icon">
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-value">95%</span>
+                        <span class="stat-label">Customer Satisfaction Score (CSAT)</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon-wrapper">
+                        <img src="images/2_929.svg" alt="Customer Effort Score Icon">
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-value">92%</span>
+                        <span class="stat-label">Customer Effort Score (CES)</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon-wrapper">
+                        <img src="images/2_941.svg" alt="Repeat Customer Rate Icon">
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-value">85%</span>
+                        <span class="stat-label">Repeat Customer Rate</span>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon-wrapper">
+                        <img src="images/2_954.svg" alt="Survey Response Rate Icon">
+                    </div>
+                    <div class="stat-content">
+                        <span class="stat-value">&lt;70</span>
+                        <span class="stat-label">Survey Response Rate</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section-services" style="background-color: #f3fafd;">
+    <div class="container">
+        <p class="section-subtitle">Our Customer Satisfaction Survey Services:</p>
+        <h2 class="section-title">Expertise Beyond Routine</h2>
+        <div class="services-grid">
+            <ul class="service-list">
+                <li>
+                    <h3>Customized Survey Creation</h3>
+                    <p>We design insightful survey questions aimed at capturing the authentic voice of your customers.</p>
+                </li>
+                <li>
+                    <h3>Efficient Data Gathering</h3>
+                    <p>We employ effective methods to collect vital responses from your customers meticulously.</p>
+                </li>
+                <li>
+                    <h3>Comprehensive Reporting</h3>
+                    <p>To simplify customer satisfaction survey services, we translate complex data into simple, understandable reports furnished with key metrics, trends, and actionable insights.</p>
+                </li>
+                <li>
+                    <h3>Proactive Customer Feedback Management</h3>
+                    <p>We ensure every piece of customer feedback is handled promptly and appropriately, turning criticism into opportunities for improvement.</p>
+                </li>
+            </ul>
+            <ul class="service-list">
+                <li>
+                    <h3>Strategic Survey Deployment</h3>
+                    <p>We have the right channels to engage your customers and encourage them to share their experiences and perceptions.</p>
+                </li>
+                <li>
+                    <h3>In-depth Data Interpretation</h3>
+                    <p>Our team of experts delves deep into the data, extracting meaningful insights about your customer satisfaction levels and potential areas for improvement.</p>
+                </li>
+                <li>
+                    <h3>Progressive Follow-ups</h3>
+                    <p>We conduct regular follow-up surveys to measure the shift in customer satisfaction and gauge the efficacy of your implemented changes.</p>
+                </li>
+                <li>
+                    <h3>Continuous Improvement and Strategy Adjustments</h3>
+                    <p>Based on the insights gleaned from the surveys, we assist in formulating and adjusting strategies to enhance customer satisfaction continually.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+<section id="section-cta-banner-1" class="cta-banner-section">
+    <div class="container">
+        <p>Want More Leads, Sales Meetings, and Appointments?</p>
+        <a href="#" class="btn btn-primary">Get it Now!</a>
+    </div>
+</section>
+<section id="section-efficiency">
+    <img src="images/2_622.svg" alt="decorative shape" class="deco-shape-1">
+    <img src="images/2_621.svg" alt="decorative shape" class="deco-shape-2">
+    <div class="container">
+        <div class="efficiency-grid">
+            <div class="efficiency-text">
+                <p class="section-subtitle" style="text-align: left;">Survey for Customer Satisfaction</p>
+                <h2 class="section-title" style="text-align: left;">Gets More Efficient With Expertcallers</h2>
+                <p>As one of the top customer satisfaction survey companies, we help you contemplate your exact business strategic moves. Undoubtable expertCallers is your ally in achieving unparalleled success. By collaborating with us, you ensure that customer satisfaction isn't just a metric but a driving force behind your growth. Don't let challenges hinder your progress; let us transform them into stepping stones.</p>
+                <div class="efficiency-buttons">
+                    <a href="#" class="btn btn-outline">CONTACT NOW</a>
+                    <a href="#" class="btn btn-secondary">CALL NOW</a>
+                </div>
+            </div>
+            <div class="efficiency-image">
+                <!--merged image-->
+                <div class="image-stack">
+                    <img src="images/2_927.svg" alt="Team working in an office" style="position: absolute; top: 0; left: 0;">
+                    <img src="images/2_923.svg" alt="Blue overlay shape" style="position: absolute; top: 0; left: 0;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section-why-us" style="background-color: #f3fafd;">
+    <div class="container">
+        <p class="section-subtitle">ExpertCallers: Why are we the Leaders Amont the</p>
+        <h2 class="section-title">Customer Satisfaction Survey Companies</h2>
+        <div class="why-us-grid">
+            <div class="why-us-item">
+                <img src="images/2_974.svg" alt="Icon" class="why-us-icon">
+                <h3>Strategic Resource Allocation</h3>
+                <p>Reallocate your resources to core functions while we manage the intricacies of surveys.</p>
+            </div>
+            <div class="why-us-item">
+                <img src="images/2_992.svg" alt="Icon" class="why-us-icon">
+                <h3>Actionable Insights</h3>
+                <p>Our statistical analysis translates into actionable strategies that boost your bottom line.</p>
+            </div>
+            <div class="why-us-item">
+                <img src="images/2_1005.svg" alt="Icon" class="why-us-icon">
+                <h3>Time-Efficient</h3>
+                <p>Our streamlined processes save you time, ensuring quicker access to crucial insights.</p>
+            </div>
+            <div class="why-us-item">
+                <img src="images/2_1036.svg" alt="Icon" class="why-us-icon">
+                <h3>Holistic Approach</h3>
+                <p>Comprehensive solutions that cover survey design, execution, analysis, and strategy formulation.</p>
+            </div>
+            <div class="why-us-item">
+                <img src="images/2_1040.svg" alt="Icon" class="why-us-icon">
+                <h3>Focus on Growth</h3>
+                <p>Free from survey-related hassles, you can channel your energy into strategic growth initiatives.</p>
+            </div>
+            <div class="why-us-item">
+                <img src="images/2_910.svg" alt="Icon" class="why-us-icon">
+                <h3>Regular Follow-ups</h3>
+                <p>We conduct follow-up surveys to measure evolving customer sentiments.</p>
+            </div>
+            <div class="why-us-item">
+                <img src="images/2_970.svg" alt="Icon" class="why-us-icon">
+                <h3>Feedback Management</h3>
+                <p>We handle every piece of feedback promptly, turning criticism into improvement.</p>
+            </div>
+            <div class="why-us-item">
+                <img src="images/2_1188.svg" alt="Icon" class="why-us-icon">
+                <h3>Strategy Adjustments</h3>
+                <p>We assist in adjusting strategies based on insights, ensuring your business aligns with changing customer needs.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section-main-cta" class="main-cta-section">
+    <div class="main-cta-content">
+        <h2>Ready to Elevate Your Customer Satisfaction?<br>Embrace Expertise, Embrace Success. Experience<br>the ExpertCallers Advantage Today!</h2>
+        <a href="#" class="btn btn-outline-white">Contact Now!</a>
+    </div>
+</section>
+<section id="section-success-stories">
+    <div class="container">
+        <div class="success-stories-grid">
+            <div class="success-stories-text">
+                <p class="section-subtitle" style="text-align: left;">Read Our</p>
+                <h2 class="section-title" style="text-align: left;">Succsess Stories</h2>
+                <p>Delve into our collection of case studies that showcase how ExpertCallers' innovative strategies and services have transformed businesses across industries. Witness firsthand the power of expertise in action.</p>
+                <a href="#" class="btn btn-secondary">VIEW ALL CASE STUDIES</a>
+            </div>
+            <div class="case-study-card card-1">
+                <h4>Achieving 99% Precision: Conquering a Mega CATI Survey for a Premier Health Insurance Giant</h4>
+                <a href="#" class="arrow-btn"><img src="images/2_1179.svg" alt="arrow"></a>
+            </div>
+            <div class="case-study-card card-2">
+                <h4>Enhancing Precision and Delight: Revolutionizing Data Management for a U.S. Online Retail Haven</h4>
+                <a href="#" class="arrow-btn"><img src="images/2_1182.svg" alt="arrow"></a>
+            </div>
+            <div class="case-study-card card-3">
+                <h4>Fueling Growth: Elevating Lead Generation and Data Security for a Singapore Powerhouse in Databases</h4>
+                <a href="#" class="arrow-btn"><img src="images/2_1185.svg" alt="arrow"></a>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section-cta-banner-2" class="cta-banner-section">
+    <div class="container">
+        <p>Want More Leads, Sales Meetings, and Appointments?</p>
+        <a href="#" class="btn btn-primary">Get it Now!</a>
+    </div>
+</section>
+<section id="section-happy-customers">
+    <div class="container">
+        <img src="images/2_1113.svg" alt="ExpertCallers" class="customer-section-logo">
+        <h2 class="section-title">Happy Customers</h2>
+        <div class="customer-logos">
+            <img src="images/e776c172e4b519b16a56528d1231d6db5974c779.png" alt="arrow left" class="nav-arrow">
+            <img src="images/852b5b3fb9c216309178271fa0376400890d5df0.png" alt="Cylestial logo">
+            <img src="images/36bb5b88354b2a5ed16b52544032f3219a0fe9e7.png" alt="MiracleFeet logo">
+            <img src="images/f9de25662fdfbadaefa8d4683dda730e6fd50014.png" alt="Authentic Gaming logo">
+            <img src="images/acaee776c0b6203a16fc97e80e0f310941a102fb.png" alt="Leadarr logo">
+            <img src="images/d798568aa939e348dc112907a398a985978a6c64.png" alt="Noom logo">
+            <img src="images/36b9d21feb19478adf01a6d23aefe2f8de0031fc.png" alt="arrow right" class="nav-arrow">
+        </div>
+        <div class="testimonials-grid">
+            <!--merged image-->
+            <div class="testimonial-card">
+                <img src="images/2_1073.svg" alt="Testimonial 1 background" class="testimonial-bg">
+                <div class="play-button-overlay">
+                    <img src="images/2_1078.svg" alt="Play button">
+                </div>
+            </div>
+            <!--merged image-->
+            <div class="testimonial-card">
+                <img src="images/2_1090.svg" alt="Testimonial 2 background" class="testimonial-bg">
+                <div class="play-button-overlay">
+                    <img src="images/2_1095.svg" alt="Play button">
+                </div>
+            </div>
+            <!--merged image-->
+            <div class="testimonial-card">
+                <img src="images/1b91e7fc59632a3a56938ca5f0d3b71a2c366007.png" alt="Testimonial 3 background" class="testimonial-bg">
+                <div class="play-button-overlay">
+                    <img src="images/2_1110.svg" alt="Play button">
+                </div>
+            </div>
+        </div>
+        <div class="view-more-wrapper">
+            <a href="#" class="btn btn-secondary">VIEW MORE</a>
+        </div>
+    </div>
+</section>
+<footer id="section-footer" class="site-footer">
+    <div class="footer-top">
+        <div class="container">
+            <img src="images/6bfe77432ae684c84ff21d306e3a09b64b797dca.png" alt="Certifications">
+        </div>
+    </div>
+    <div class="footer-main">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Inbound Call Center</a></li>
+                        <li><a href="#">Outbound Call Center</a></li>
+                        <li><a href="#">Customer Support</a></li>
+                        <li><a href="#">Email Support</a></li>
+                        <li><a href="#">Chat Support</a></li>
+                        <li><a href="#">Technical Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Resources</h3>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Case Studies</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Infographics</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Certification</a></li>
+                        <li><a href="#">Infrastructure</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Call Center India</a></li>
+                        <li><a href="#">Call Centerr Phllippines</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <p class="contact-label">Phone</p>
+                    <a href="tel:1877-374-0211" class="contact-info">1877-374-0211</a>
+                    <p class="contact-label">Email</p>
+                    <a href="mailto:info@expertcallers.com" class="contact-info">info@expertcallers.com</a>
+                    <div class="social-icons">
+                         <a href="#"><img src="images/f20444ffe52dec35151ea060d49574621729a7fa.png" alt="Social Media Icons"></a>
+                    </div>
+                    <img src="images/2_1131.svg" alt="ExpertCallers White Logo" class="footer-logo">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <p>Terms and conditions | Privacy policy | Cookies</p>
+            <p>© 2023 Flatworld Solutions Pvt. Ltd | ExpertCallers.com. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
