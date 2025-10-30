@@ -1,209 +1,225 @@
-To merge the GitHub reference structure into the new HTML file, we will follow the analysis provided. Let's proceed with the integration:
 
-```html
+TASK: Merge GitHub structure into new HTML.
+
+GITHUB REFERENCE:
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <title>Generated Page</title>
-    <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/header-assets.php'; ?>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Generated Page</title>
+<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/header-assets.php'; ?>
 </head>
 <body>
-    <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/header-navbar.php'; ?>
-
-    <header class="header-section">
-        <div class="header-container">
-            <a href="#" class="logo">
-                <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/898ba532007db22810bedaabb6fceec627b19429.png" alt="PhotoEditing Logo">
-            </a>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">ABOUT US</a></li>
-                    <li class="dropdown">
-                        <a href="#">PHOTO EDITING <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/1c6f3dfb77d98322b5e5777a732edeab69cdd9c0.png" alt="dropdown arrow" class="arrow"></a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#">VIDEO EDITING <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/1c6f3dfb77d98322b5e5777a732edeab69cdd9c0.png" alt="dropdown arrow" class="arrow"></a>
-                    </li>
-                    <li><a href="#">BLOG</a></li>
-                    <li><a href="#">CONTACT US</a></li>
-                </ul>
-            </nav>
-            <div class="header-contact">
-                <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_721.svg" alt="Contact background" class="contact-bg">
-                <div class="contact-info">
-                    <!--merged image-->
-                    <div class="contact-icon-wrapper">
-                        <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_725.svg" alt="Phone icon" style="position: absolute; top: 0px; left: 0px;">
-                        <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_728.svg" alt="" style="position: absolute; top: 11.25px; left: 3px;">
-                        <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_731.svg" alt="" style="position: absolute; top: 11.25px; left: 6.75px;">
-                        <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_734.svg" alt="" style="position: absolute; top: 11.25px; left: 10.5px;">
-                        <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_737.svg" alt="" style="position: absolute; top: 11.25px; left: 14.25px;">
-                        <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_740.svg" alt="" style="position: absolute; top: 11.25px; left: 18px;">
-                        <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_743.svg" alt="" style="position: absolute; top: 13.75px; left: 9.75px;">
-                        <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_746.svg" alt="" style="position: absolute; top: 22.75px; left: 25.5px;">
-                        <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_749.svg" alt="" style="position: absolute; top: 22.75px; left: 20.25px;">
-                        <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_752.svg" alt="" style="position: absolute; top: 22.75px; left: 15px;">
-                    </div>
-                    <div class="contact-text">
-                        <p class="contact-label">Talk to An Expert</p>
-                        <p class="contact-number">866-720-2814</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="hero-section">
-            <div class="hero-background">
-                <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/53f9b55ca5b9deaeb175c7f51d60fa9a05686446.png" alt="Woman on a beach">
-            </div>
-            <div class="hero-overlay"></div>
-            <div class="hero-content">
-                <h1>Studio-Quality Photo Editing Outsourcing Services</h1>
-                <p>Our professional photo editing services are ideal for Online Retailers, Real Estate Agents, Creative Teams, Corporate Clients, and Marketing Agencies.</p>
-                <div class="hero-buttons">
-                    <a href="#" class="btn btn-secondary">Order Now</a>
-                    <a href="#" class="btn btn-primary">see portfolio</a>
-                </div>
-            </div>
-        </div>
-    </header>
-    <section id="about" class="about-section">
-        <div class="container">
-            <div class="clients-section">
-                <h3>Customers We Have Served Over the Years</h3>
-                <div class="client-logos">
-                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/5c5270b2d3704b0419ebd70c93d590937150793e.png" alt="Client logo arrow" class="arrow-left">
-                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/936fb7a72f37eb31693fe63aac5106ce8411fe74.png" alt="Camnet logo">
-                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/b2d667faf19d57efeeb3ecfeecb612aec0f0c1bf.png" alt="Yale School of Management logo">
-                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/d4f5bea8e57ae596ffe539f4ab51144e51ab8629.png" alt="Maximus logo">
-                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/c43419b55fb9be830c41e43daf368de388ea8367.png" alt="Magni+ic logo">
-                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/075ef948ace41f9908063d06ddff93109718bbc8.png" alt="Enpevita logo">
-                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/a3c58f9a91902f1101e41e94fec0024a351576ff.png" alt="Client logo arrow" class="arrow-right">
-                </div>
-            </div>
-
-            <div class="experience-section">
-                <h2>Experience The Magic of <br>Photo-Editing Outsourcing Services</h2>
-                <p>We provide tailored photo and video editing solutions for eCommerce businesses, real estate companies, marketing agencies, and production studios. Our mass background removal of images, 3D adjacent services, clipping, and retouching align with brand and platform-specific precision and visual coherence. With streamlined workflows, rapid turnarounds, and strict QC measures, we take on the entire image editing workload. Our unified efforts allow clients to scale content production while maintaining quality, speed, and delivery timelines.</p>
-            </div>
-
-            <div class="stats-section">
-                <div class="stat-item">
-                    <div class="stat-icon-wrapper">
-                        <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/6d5998cc8f2ebe26080667a6a3035e28e9f85d6d.png" class="stat-bg" alt="">
-                        <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/70_806.svg" class="stat-line" alt="">
-                    </div>
-                    <div class="stat-number">16<span>+</span></div>
-                    <div class="stat-label">Years of Experience</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-icon-wrapper">
-                        <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/8051b1b598faf4f517353a3944b49303efe6ccc6.png" class="stat-bg" alt="">
-                        <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/70_808.svg" class="stat-line" alt="">
-                    </div>
-                    <div class="stat-number">300<span>+</span></div>
-                    <div class="stat-label">Editors</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-icon-wrapper">
-                        <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/fa8d3b00c5db7dc8e7feb1c3f524468159235dcf.png" class="stat-bg" alt="">
-                        <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/70_810.svg" class="stat-line" alt="">
-                    </div>
-                    <div class="stat-number">200<span>K</span></div>
-                    <div class="stat-label">Photos Edited</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-icon-wrapper">
-                        <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/0de6af840fc4f06fa0f27fbb2f4b836efa817135.png" class="stat-bg" alt="">
-                        <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/70_811.svg" class="stat-line" alt="">
-                    </div>
-                    <div class="stat-number">7K<span>+</span></div>
-                    <div class="stat-label">Videos</div>
-                </div>
-            </div>
-        </div>
+  <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/header-navbar.php'; ?>
+  
+  <main>
+    <section id="test-section" style="padding: 50px; text-align: center;">
+      <h1>Test Page Loaded Successfully</h1>
+      <p>This is a basic content section added for testing purposes.</p>
+      <button class="btn btn-primary">Click Me</button>
     </section>
-    <footer id="footer" class="footer-section">
-        <div class="container">
-            <div class="footer-top">
-                <div class="footer-contact-item">
-                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/80_1430.svg" alt="phone icon">
-                    <div>
-                        <a href="tel:+18667202814">+1 866-720-2814</a>
-                        <span>contact us with phone</span>
-                    </div>
-                </div>
-                <div class="footer-contact-item">
-                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/80_1427.svg" alt="email icon">
-                    <div>
-                        <a href="mailto:info@photoeditingoutsourcing.com">info@photoeditingoutsourcing.com</a>
-                        <span>contact us with email</span>
-                    </div>
-                </div>
-                <div class="footer-contact-item">
-                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/80_1436.svg" alt="location icon">
-                    <div>
-                        <p>116 Village Blvd, <br>Suite 220, Princeton, NJ 08540</p>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-main">
-                <div class="footer-about">
-                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/53a9729507b70573a5f4a3a9273b36fb2b9e2b02.png" alt="Footer Logo" class="footer-logo">
-                    <p>If you’re a photographer or a business in the real estate, fashion, jewelry, or e-commerce industry, let Photo Editing Outsourcing handle your photo editing needs. Contact us today to see our flexible prices and get a free quote.</p>
-                    <div class="social-icons">
-                        <a href="#"><img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/294ef6058f0b314ce2b035e6b830a34e82dd36bd.png" alt="Social Media Icons"></a>
-                    </div>
-                </div>
-                <div class="footer-links">
-                    <h4>Photo Editing Services</h4>
-                    <ul>
-                        <li><a href="#">Photo Retouching Services</a></li>
-                        <li><a href="#">Wedding Photo Editing Services</a></li>
-                        <li><a href="#">Real Estate Photo Editing Services</a></li>
-                        <li><a href="#">eCommerce Photo Editing Services</a></li>
-                        <li><a href="#">Jewelry Image Editing Services</a></li>
-                        <li><a href="#">Background Removal Services</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <!-- Empty h4 for alignment -->
-                    <h4>&nbsp;</h4>
-                    <ul>
-                        <li><a href="#">Photo Manipulation Services</a></li>
-                        <li><a href="#">Clipping Path Services</a></li>
-                        <li><a href="#">Portrait Retouching Services</a></li>
-                        <li><a href="#">Image Enhancement Services</a></li>
-                        <li><a href="#">Fashion Photo Editing Services</a></li>
-                    </ul>
-                </div>
-                <div class="footer-links">
-                    <h4>Video Editing Services</h4>
-                    <ul>
-                        <li><a href="#">Social Media Video Editing Services</a></li>
-                        <li><a href="#">Wedding Video Editing Services</a></li>
-                        <li><a href="#">Real Estate Video Editing Services</a></li>
-                        <li><a href="#">Corporate Video Editing Services</a></li>
-                        <li><a href="#">Educational Video Editing Services</a></li>
-                        <li><a href="#">E-Commerce Product Video Editing Services</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>PhotoEditing Outsource © 2025 - All Rights Reserved</p>
-                <div class="footer-legal">
-                    <a href="#">Privacy Policy</a>
-                    <a href="#">Terms and Conditions</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
+  </main>
+  
+  <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
 </body>
 </html>
-```
 
-@validator: The HTML has been successfully merged and fixed according to the requirements. The PHP includes are correctly positioned, and the structure is complete and valid. Please review and validate the output.
+
+NEW HTML:
+<header class="header-section">
+    <div class="header-container">
+        <a href="#" class="logo">
+            <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/898ba532007db22810bedaabb6fceec627b19429.png" alt="PhotoEditing Logo">
+        </a>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT US</a></li>
+                <li class="dropdown">
+                    <a href="#">PHOTO EDITING <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/1c6f3dfb77d98322b5e5777a732edeab69cdd9c0.png" alt="dropdown arrow" class="arrow"></a>
+                </li>
+                <li class="dropdown">
+                    <a href="#">VIDEO EDITING <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/1c6f3dfb77d98322b5e5777a732edeab69cdd9c0.png" alt="dropdown arrow" class="arrow"></a>
+                </li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </nav>
+        <div class="header-contact">
+            <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_721.svg" alt="Contact background" class="contact-bg">
+            <div class="contact-info">
+                <!--merged image-->
+                <div class="contact-icon-wrapper">
+                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_725.svg" alt="Phone icon" style="position: absolute; top: 0px; left: 0px;">
+                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_728.svg" alt="" style="position: absolute; top: 11.25px; left: 3px;">
+                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_731.svg" alt="" style="position: absolute; top: 11.25px; left: 6.75px;">
+                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_734.svg" alt="" style="position: absolute; top: 11.25px; left: 10.5px;">
+                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_737.svg" alt="" style="position: absolute; top: 11.25px; left: 14.25px;">
+                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_740.svg" alt="" style="position: absolute; top: 11.25px; left: 18px;">
+                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_743.svg" alt="" style="position: absolute; top: 13.75px; left: 9.75px;">
+                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_746.svg" alt="" style="position: absolute; top: 22.75px; left: 25.5px;">
+                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_749.svg" alt="" style="position: absolute; top: 22.75px; left: 20.25px;">
+                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/58_752.svg" alt="" style="position: absolute; top: 22.75px; left: 15px;">
+                </div>
+                <div class="contact-text">
+                    <p class="contact-label">Talk to An Expert</p>
+                    <p class="contact-number">866-720-2814</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-section">
+        <div class="hero-background">
+            <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/53f9b55ca5b9deaeb175c7f51d60fa9a05686446.png" alt="Woman on a beach">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Studio-Quality Photo Editing Outsourcing Services</h1>
+            <p>Our professional photo editing services are ideal for Online Retailers, Real Estate Agents, Creative Teams, Corporate Clients, and Marketing Agencies.</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn btn-secondary">Order Now</a>
+                <a href="#" class="btn btn-primary">see portfolio</a>
+            </div>
+        </div>
+    </div>
+</header>
+<section id="about" class="about-section">
+    <div class="container">
+        <div class="clients-section">
+            <h3>Customers We Have Served Over the Years</h3>
+            <div class="client-logos">
+                <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/5c5270b2d3704b0419ebd70c93d590937150793e.png" alt="Client logo arrow" class="arrow-left">
+                <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/936fb7a72f37eb31693fe63aac5106ce8411fe74.png" alt="Camnet logo">
+                <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/b2d667faf19d57efeeb3ecfeecb612aec0f0c1bf.png" alt="Yale School of Management logo">
+                <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/d4f5bea8e57ae596ffe539f4ab51144e51ab8629.png" alt="Maximus logo">
+                <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/c43419b55fb9be830c41e43daf368de388ea8367.png" alt="Magni+ic logo">
+                <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/075ef948ace41f9908063d06ddff93109718bbc8.png" alt="Enpevita logo">
+                <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/a3c58f9a91902f1101e41e94fec0024a351576ff.png" alt="Client logo arrow" class="arrow-right">
+            </div>
+        </div>
+
+        <div class="experience-section">
+            <h2>Experience The Magic of <br>Photo-Editing Outsourcing Services</h2>
+            <p>We provide tailored photo and video editing solutions for eCommerce businesses, real estate companies, marketing agencies, and production studios. Our mass background removal of images, 3D adjacent services, clipping, and retouching align with brand and platform-specific precision and visual coherence. With streamlined workflows, rapid turnarounds, and strict QC measures, we take on the entire image editing workload. Our unified efforts allow clients to scale content production while maintaining quality, speed, and delivery timelines.</p>
+        </div>
+
+        <div class="stats-section">
+            <div class="stat-item">
+                <div class="stat-icon-wrapper">
+                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/6d5998cc8f2ebe26080667a6a3035e28e9f85d6d.png" class="stat-bg" alt="">
+                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/70_806.svg" class="stat-line" alt="">
+                </div>
+                <div class="stat-number">16<span>+</span></div>
+                <div class="stat-label">Years of Experience</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-icon-wrapper">
+                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/8051b1b598faf4f517353a3944b49303efe6ccc6.png" class="stat-bg" alt="">
+                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/70_808.svg" class="stat-line" alt="">
+                </div>
+                <div class="stat-number">300<span>+</span></div>
+                <div class="stat-label">Editors</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-icon-wrapper">
+                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/fa8d3b00c5db7dc8e7feb1c3f524468159235dcf.png" class="stat-bg" alt="">
+                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/70_810.svg" class="stat-line" alt="">
+                </div>
+                <div class="stat-number">200<span>K</span></div>
+                <div class="stat-label">Photos Edited</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-icon-wrapper">
+                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/0de6af840fc4f06fa0f27fbb2f4b836efa817135.png" class="stat-bg" alt="">
+                    <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/70_811.svg" class="stat-line" alt="">
+                </div>
+                <div class="stat-number">7K<span>+</span></div>
+                <div class="stat-label">Videos</div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer id="footer" class="footer-section">
+    <div class="container">
+        <div class="footer-top">
+            <div class="footer-contact-item">
+                <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/80_1430.svg" alt="phone icon">
+                <div>
+                    <a href="tel:+18667202814">+1 866-720-2814</a>
+                    <span>contact us with phone</span>
+                </div>
+            </div>
+            <div class="footer-contact-item">
+                <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/80_1427.svg" alt="email icon">
+                <div>
+                    <a href="mailto:info@photoeditingoutsourcing.com">info@photoeditingoutsourcing.com</a>
+                    <span>contact us with email</span>
+                </div>
+            </div>
+            <div class="footer-contact-item">
+                <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/80_1436.svg" alt="location icon">
+                <div>
+                    <p>116 Village Blvd, <br>Suite 220, Princeton, NJ 08540</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-main">
+            <div class="footer-about">
+                <img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/53a9729507b70573a5f4a3a9273b36fb2b9e2b02.png" alt="Footer Logo" class="footer-logo">
+                <p>If you’re a photographer or a business in the real estate, fashion, jewelry, or e-commerce industry, let Photo Editing Outsourcing handle your photo editing needs. Contact us today to see our flexible prices and get a free quote.</p>
+                <div class="social-icons">
+                    <a href="#"><img src="/page/0cb71bae-68eb-4508-aa21-290bf8316dfc/images/294ef6058f0b314ce2b035e6b830a34e82dd36bd.png" alt="Social Media Icons"></a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <h4>Photo Editing Services</h4>
+                <ul>
+                    <li><a href="#">Photo Retouching Services</a></li>
+                    <li><a href="#">Wedding Photo Editing Services</a></li>
+                    <li><a href="#">Real Estate Photo Editing Services</a></li>
+                    <li><a href="#">eCommerce Photo Editing Services</a></li>
+                    <li><a href="#">Jewelry Image Editing Services</a></li>
+                    <li><a href="#">Background Removal Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <!-- Empty h4 for alignment -->
+                <h4>&nbsp;</h4>
+                <ul>
+                    <li><a href="#">Photo Manipulation Services</a></li>
+                    <li><a href="#">Clipping Path Services</a></li>
+                    <li><a href="#">Portrait Retouching Services</a></li>
+                    <li><a href="#">Image Enhancement Services</a></li>
+                    <li><a href="#">Fashion Photo Editing Services</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h4>Video Editing Services</h4>
+                <ul>
+                    <li><a href="#">Social Media Video Editing Services</a></li>
+                    <li><a href="#">Wedding Video Editing Services</a></li>
+                    <li><a href="#">Real Estate Video Editing Services</a></li>
+                    <li><a href="#">Corporate Video Editing Services</a></li>
+                    <li><a href="#">Educational Video Editing Services</a></li>
+                    <li><a href="#">E-Commerce Product Video Editing Services</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>PhotoEditing Outsource © 2025 - All Rights Reserved</p>
+            <div class="footer-legal">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms and Conditions</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+REQUIREMENTS:
+1. COPY missing structure from GitHub
+2. REMOVE old footer/header tags
+3. ADD PHP includes at correct positions
+4. KEEP body content from new file
+
+@analyzer: Start!
