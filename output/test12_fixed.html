@@ -1,10 +1,8 @@
-To merge the GitHub structure into the new HTML file, I'll follow the analysis provided and ensure all requirements are met. Let's proceed with the merging and fixing process.
-
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Customer Survey Services | ExpertCallers</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
@@ -29,57 +27,55 @@ To merge the GitHub structure into the new HTML file, I'll follow the analysis p
   .btn-primary {background: #0056b3; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer;}
   .btn-primary:hover {background: #004494;}
 </style>
+
 <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/header-assets.php'; ?>
 </head>
-
 <body>
-  <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/header-navbar.php'; ?>
 
-  <!-- ====== MAIN CONTENT ====== -->
-  <main>
-    <section id="hero" class="hero">
-      <h2>Customer Satisfaction Survey Services</h2>
-    </section>
+<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/header-navbar.php'; ?>
 
-    <section id="services" class="services">
-      <h2>Our Services</h2>
-      <div class="services-grid">
-        <div class="service-card">
-          <h3>Survey</h3>
-          <h3>Survey Strategy</h3>
-          <h3>Design & Strategy</h3>
-          <p>We create custom-tailored surveys that align perfectly with your business goals and audience profile.</p>
-        </div>
-        <div class="service-card">
-          <h3>Data Collection & Processing</h3>
-          <p>Our advanced tools ensure high-quality, unbiased data collection and secure processing.</p>
-        </div>
-        <div class="service-card">
-          <h3>Analytics & Reporting</h3>
-          <p>We turn raw data into meaningful insights using visualization dashboards and trend analysis.</p>
-        </div>
-        <div class="service-card">
-          <h3>Customer Feedback Management</h3>
-          <p>Timely and organized management of feedback ensures your customers feel heard and valued.</p>
-        </div>
+<main>
+  <section id="hero" class="hero">
+    <h2>Customer Satisfaction Survey Services</h2>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-card">
+        <h3>Survey</h3>
+        <h3>Survey Strategy</h3>
+        <h3>Design & Strategy</h3>
+        <p>We create custom-tailored surveys that align perfectly with your business goals and audience profile.</p>
       </div>
-    </section>
+      <div class="service-card">
+        <h3>Data Collection & Processing</h3>
+        <p>Our advanced tools ensure high-quality, unbiased data collection and secure processing.</p>
+      </div>
+      <div class="service-card">
+        <h3>Analytics & Reporting</h3>
+        <p>We turn raw data into meaningful insights using visualization dashboards and trend analysis.</p>
+      </div>
+      <div class="service-card">
+        <h3>Customer Feedback Management</h3>
+        <p>Timely and organized management of feedback ensures your customers feel heard and valued.</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="contact" class="contact">
-      <h2>Contact Us</h2>
-      <p>Want to know how we can improve your customer engagement?</p>
-      <form style="max-width:500px; margin:auto;">
-        <input type="text" placeholder="Full Name" required style="width:100%; margin-bottom:10px; padding:10px;"/>
-        <input type="email" placeholder="Email Address" required style="width:100%; margin-bottom:10px; padding:10px;"/>
-        <textarea placeholder="Message" rows="5" style="width:100%; margin-bottom:10px; padding:10px;"></textarea>
-        <button class="btn-primary" type="submit">Send Message</button>
-      </form>
-    </section>
-  </main>
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Want to know how we can improve your customer engagement?</p>
+    <form style="max-width:500px; margin:auto;">
+      <input type="text" placeholder="Full Name" required style="width:100%; margin-bottom:10px; padding:10px;"/>
+      <input type="email" placeholder="Email Address" required style="width:100%; margin-bottom:10px; padding:10px;"/>
+      <textarea placeholder="Message" rows="5" style="width:100%; margin-bottom:10px; padding:10px;"></textarea>
+      <button class="btn-primary" type="submit">Send Message</button>
+    </form>
+  </section>
+</main>
 
-  <?php include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
+<?php include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>
+
 </body>
 </html>
-```
-
-@validator: The HTML has been successfully merged and fixed. All PHP includes are correctly positioned, and the body content from the new file is preserved. Please validate the output.
